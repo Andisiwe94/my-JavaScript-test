@@ -1,25 +1,27 @@
-function email() {
+function submit() {
 
-    var email;
-    var password;
-    var res;
-
-    email = (document.getElementById('email').value);
-    password = Number(document.getElementById('password').value);
-    res = email + password;
-
+    var exampleInputEmail1;
+    var exampleInputPassword1;
+ 
+    exampleInputEmail1 = (document.getElementById('exampleInputEmail1').value);
+    exampleInputPassword1 =(document.getElementById('exampleInputPassword1').value);
+    
 
 
 
-    if (email == "") {
+
+    if (exampleInputEmail1 == "") {
         alert("email cannot be empty!!!");
         return;
     }
 
-    if (password == "") {
+    if (exampleInputPassword1 == "") {
         alert("password cannot be empty!!!");
         return;
 
 
-    } document.getElementById('display').innerHTML = res;
+    } 
+
+    window.location.href = 'home.html'
 }
+
