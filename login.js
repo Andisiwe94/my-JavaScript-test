@@ -17,7 +17,19 @@ function ConfirmIdentity() {
         alert("password cannot be empty!!!");
         return;
     } 
+
+    if(exampleInputEmail1 == "user@gmail.com" && exampleInputPassword1 == "Andisiwe") {
+     
     window.location.href = "home.html"
+
+    }
+
+    else {
+        alert("incorrect email & password");
+    }
 }
+
+   
+
 
 
