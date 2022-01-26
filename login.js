@@ -19,13 +19,13 @@ function ConfirmIdentity() {
     } 
 
     if(exampleInputEmail1 == "user@gmail.com" && exampleInputPassword1 == "mypassword") {
-     
+      
     window.location.href = "home.html"
 
     }
 
     else {
-        alert(" email & password are incorrect");
+        alert("email & password are incorrect");
     }
 }
 
