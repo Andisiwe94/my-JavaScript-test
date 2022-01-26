@@ -18,14 +18,14 @@ function ConfirmIdentity() {
         return;
     } 
 
-    if(exampleInputEmail1 == "user@gmail.com" && exampleInputPassword1 == "Andisiwe") {
+    if(exampleInputEmail1 == "user@gmail.com" && exampleInputPassword1 == "mypassword") {
      
     window.location.href = "home.html"
 
     }
 
     else {
-        alert("incorrect email & password");
+        alert("email & password are incorrect");
     }
 }
 
